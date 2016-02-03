@@ -1,0 +1,390 @@
+EESchema Schematic File Version 2
+LIBS:_kb
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ideal_diode-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LTC4359 U1
+U 1 1 569A69C3
+P 6000 3550
+F 0 "U1" H 5350 3150 60  0000 C CNN
+F 1 "LTC4359" H 6500 3150 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 6000 3550 60  0001 C CNN
+F 3 "" H 6000 3550 60  0000 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 569A6C12
+P 7500 3550
+F 0 "C1" H 7525 3650 50  0000 L CNN
+F 1 "2u2" H 7525 3450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 7538 3400 30  0000 C CNN
+F 3 "" H 7500 3550 60  0000 C CNN
+	1    7500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 569A6DC9
+P 6000 5600
+F 0 "#PWR01" H 6000 5350 50  0001 C CNN
+F 1 "GND" H 6000 5450 50  0000 C CNN
+F 2 "" H 6000 5600 60  0000 C CNN
+F 3 "" H 6000 5600 60  0000 C CNN
+	1    6000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 569A6E88
+P 6000 4400
+F 0 "R1" V 6080 4400 50  0000 C CNN
+F 1 "1k" V 6000 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5930 4400 30  0000 C CNN
+F 3 "" H 6000 4400 30  0000 C CNN
+	1    6000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BSC028N06NS Q1
+U 1 1 569A7478
+P 6100 1800
+F 0 "Q1" H 5900 1550 50  0000 L CNN
+F 1 "BSC028N06NS" H 5850 2100 50  0000 L CNN
+F 2 "_kb_footprint:TDSON-8-1" H 6100 2000 50  0000 C CIN
+F 3 "" V 6100 1800 50  0000 L CNN
+	1    6100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4550 6000 5600
+Wire Wire Line
+	6000 4050 6000 4250
+Wire Wire Line
+	7500 4150 7500 3700
+Wire Wire Line
+	4150 4150 7500 4150
+Connection ~ 6000 4150
+Wire Wire Line
+	6500 1600 6500 3050
+Wire Wire Line
+	6500 1800 6500 1700
+Wire Wire Line
+	6400 1600 7900 1600
+Wire Wire Line
+	7500 1600 7500 3400
+Wire Wire Line
+	5700 1600 5700 3050
+Connection ~ 6500 1600
+Wire Wire Line
+	6500 1700 6400 1700
+Connection ~ 6500 1700
+Wire Wire Line
+	6500 1800 6400 1800
+Connection ~ 6500 1800
+Wire Wire Line
+	6400 1900 6500 1900
+Connection ~ 6500 1900
+Wire Wire Line
+	6100 2100 6100 2950
+Connection ~ 5700 1600
+Wire Wire Line
+	5600 1700 5800 1700
+Connection ~ 5700 1700
+Wire Wire Line
+	5600 1800 5800 1800
+Connection ~ 5700 1800
+Wire Wire Line
+	6300 2950 6300 3050
+$Comp
+L ZENER D1
+U 1 1 569A7C85
+P 4150 3300
+F 0 "D1" H 4150 3400 50  0000 C CNN
+F 1 "SMAJ60A" H 4150 3200 50  0000 C CNN
+F 2 "Diodes_SMD:SMA_Standard" H 4000 3050 60  0000 C CNN
+F 3 "" H 4150 3300 60  0000 C CNN
+	1    4150 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L ZENER D2
+U 1 1 569A7D33
+P 4150 3800
+F 0 "D2" H 4150 3900 50  0000 C CNN
+F 1 "SMAJ24A" H 4150 3700 50  0000 C CNN
+F 2 "Diodes_SMD:SMA_Standard" H 4050 3400 60  0000 C CNN
+F 3 "" H 4150 3800 60  0000 C CNN
+	1    4150 3800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4150 3600 4150 3500
+Wire Wire Line
+	4150 4000 4150 4150
+Text Label 2450 1600 0    60   ~ 0
+IN
+Text Label 6950 1600 0    60   ~ 0
+OUT
+Text Notes 6500 1300 0    79   ~ 16
+IN and OUT traces 20A.\nHeatsink the Drains for 1.2W ea.
+Text Label 6150 2950 0    60   ~ 0
+GATE
+Text Label 5700 4150 0    60   ~ 0
+VSS
+Text Notes 4300 1100 0    60   ~ 0
+IRFH7085TRPBF also possible FET\n(cheaper @ quantity, better thermal)
+$Comp
+L BSC028N06NS Q2
+U 1 1 569D5F8D
+P 5300 1800
+F 0 "Q2" H 5100 1550 50  0000 L CNN
+F 1 "BSC028N06NS" H 5050 2100 50  0000 L CNN
+F 2 "_kb_footprint:TDSON-8-1" H 5300 2000 50  0000 C CIN
+F 3 "" V 5300 1800 50  0000 L CNN
+	1    5300 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2950 5500 3050
+Wire Wire Line
+	4150 2950 5500 2950
+Wire Wire Line
+	2150 1600 5000 1600
+Wire Wire Line
+	4900 1700 5000 1700
+Wire Wire Line
+	4900 1600 4900 1900
+Connection ~ 4900 1600
+Wire Wire Line
+	4900 1800 5000 1800
+Connection ~ 4900 1700
+Wire Wire Line
+	4900 1900 5000 1900
+Connection ~ 4900 1800
+Wire Wire Line
+	5600 1600 5800 1600
+$Comp
+L ZENER D3
+U 1 1 569D67BD
+P 5900 2300
+F 0 "D3" H 5900 2400 50  0000 C CNN
+F 1 "MM3Z16VT1" H 5900 2200 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-323" H 5900 2300 50  0000 C CNN
+F 3 "" H 5900 2300 50  0000 C CNN
+	1    5900 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2950 6300 2950
+Connection ~ 6100 2300
+Text Label 5700 2950 0    60   ~ 0
+SOURCE
+$Comp
+L R R3
+U 1 1 569D78C7
+P 5300 2300
+F 0 "R3" V 5380 2300 50  0000 C CNN
+F 1 "10R" V 5300 2300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5230 2300 30  0000 C CNN
+F 3 "" H 5300 2300 30  0000 C CNN
+	1    5300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 569D7A1E
+P 5100 2550
+F 0 "R2" V 5180 2550 50  0000 C CNN
+F 1 "10k" V 5100 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5030 2550 30  0000 C CNN
+F 3 "" H 5100 2550 30  0000 C CNN
+	1    5100 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 569D7AEE
+P 4750 2550
+F 0 "C2" H 4775 2650 50  0000 L CNN
+F 1 "10n" H 4775 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4788 2400 30  0000 C CNN
+F 3 "" H 4750 2550 60  0000 C CNN
+	1    4750 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 569D7D99
+P 4550 2600
+F 0 "#PWR02" H 4550 2350 50  0001 C CNN
+F 1 "GND" H 4550 2450 50  0000 C CNN
+F 2 "" H 4550 2600 60  0000 C CNN
+F 3 "" H 4550 2600 60  0000 C CNN
+	1    4550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2600 4550 2550
+Wire Wire Line
+	4550 2550 4600 2550
+Wire Wire Line
+	4900 2550 4950 2550
+Wire Wire Line
+	5300 2150 5300 2100
+Wire Wire Line
+	5300 2450 5300 2550
+Wire Wire Line
+	5250 2550 6100 2550
+Connection ~ 6100 2550
+Connection ~ 5300 2550
+Wire Wire Line
+	4150 1600 4150 3100
+Connection ~ 4150 1600
+Wire Wire Line
+	5700 2300 5700 2300
+Connection ~ 5700 2300
+$Comp
+L R R4
+U 1 1 569DA1AF
+P 2800 3350
+F 0 "R4" V 2880 3350 50  0000 C CNN
+F 1 "1M" V 2800 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2730 3350 30  0000 C CNN
+F 3 "" H 2800 3350 30  0000 C CNN
+	1    2800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3650 5000 3650
+Wire Wire Line
+	5000 3650 5000 4750
+Text Label 2400 4750 0    60   ~ 0
+~SHDN
+Connection ~ 4150 2950
+Wire Wire Line
+	2800 3500 2800 4750
+Connection ~ 2800 4750
+Wire Wire Line
+	2800 3200 2800 1600
+Connection ~ 2800 1600
+$Comp
+L CONN_01X01 OUT1
+U 1 1 56A15037
+P 8100 1600
+F 0 "OUT1" H 8100 1700 50  0000 C CNN
+F 1 "CONN_01X01" V 8300 1500 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 8100 1600 50  0000 C CNN
+F 3 "" H 8100 1600 50  0000 C CNN
+	1    8100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 GND2
+U 1 1 56A151B6
+P 8000 5400
+F 0 "GND2" H 8000 5500 50  0000 C CNN
+F 1 "CONN_01X01" V 8200 5400 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 8000 5400 50  0000 C CNN
+F 3 "" H 8000 5400 50  0000 C CNN
+	1    8000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 IN1
+U 1 1 56A154C8
+P 1950 1600
+F 0 "IN1" H 1950 1700 50  0000 C CNN
+F 1 "CONN_01X01" V 2050 1600 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 1950 1600 50  0000 C CNN
+F 3 "" H 1950 1600 50  0000 C CNN
+	1    1950 1600
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7500 1600
+$Comp
+L CONN_01X01 GND1
+U 1 1 56A18601
+P 1900 5400
+F 0 "GND1" H 1900 5500 50  0000 C CNN
+F 1 "CONN_01X01" V 2050 5400 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 1900 5400 50  0000 C CNN
+F 3 "" H 1900 5400 50  0000 C CNN
+	1    1900 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5400 7800 5400
+Connection ~ 6000 5400
+$Comp
+L CONN_01X03 P1
+U 1 1 56A1AF3D
+P 1900 4650
+F 0 "P1" H 1900 4850 50  0000 C CNN
+F 1 "CONN_01X03" V 2000 4650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1900 4650 50  0000 C CNN
+F 3 "" H 1900 4650 50  0000 C CNN
+	1    1900 4650
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2250 5400
+Wire Wire Line
+	5000 4750 2100 4750
+Wire Wire Line
+	2100 4650 2250 4650
+Wire Wire Line
+	2250 4650 2250 5400
+Text Notes 1550 2750 0    60   ~ 0
+D1 could be SMAT70A for higher breakdown\n(and still clamp <100V), if higher IN needed.
+Text Notes 6100 4950 0    60   ~ 0
+possible R1 3k3+ to allow reverse protection with\n65V input and not exceeed 0.5W rating?\nTest with both 1k & 3k6
+Text Notes 6200 4450 0    60   ~ 12
+0.5W
+Text Notes 4700 2400 0    60   ~ 12
+100V
+Text Notes 7700 3600 0    60   ~ 12
+100V
+$EndSCHEMATC

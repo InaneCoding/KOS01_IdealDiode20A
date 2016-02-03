@@ -1,0 +1,7 @@
+Reference, Value, Footprint, Datasheet
+U1,LTC4359,,
+C1,2u,Resistors_SMD:R_0805_HandSoldering,
+R1,1k,Resistors_SMD:R_0805_HandSoldering,
+Q1,BSC028N06NS,,
+D1,SMAT70A,Diodes_SMD:SMA_Handsoldering,
+D2,SMAJ24A,Diodes_SMD:SMA_Handsoldering,
