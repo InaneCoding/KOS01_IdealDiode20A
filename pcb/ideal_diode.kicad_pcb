@@ -3,7 +3,7 @@
   (general
     (links 100)
     (no_connects 0)
-    (area 129.224999 88.724999 163.375001 113.875001)
+    (area 114.091667 85.472619 182.458334 122.775)
     (thickness 1.6)
     (drawings 9)
     (tracks 64)
@@ -14,13 +14,14 @@
 
   (page A4)
   (title_block
-    (title "20A Ideal Diode 4V-70V")
+    (title "20A Ideal Diode LTC4359 4V-70V")
+    (date 2016-01-22)
     (rev 1.0)
   )
 
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal)
+    (0 F.Cu signal)
+    (31 B.Cu signal hide)
     (33 F.Adhes user)
     (35 F.Paste user)
     (37 F.SilkS user)
@@ -822,7 +823,7 @@
     (fp_text reference D1 (at -0.175 2.65 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SMAT70A (at 3.8 18.7 270) (layer F.Fab)
+    (fp_text value SMAJ60A (at 3.8 18.7 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.5 -2) (end 3.5 -2) (layer F.CrtYd) (width 0.05))

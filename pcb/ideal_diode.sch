@@ -35,9 +35,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "20A Ideal Diode LTC4359 4V-70V"
+Date "2016-01-22"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
