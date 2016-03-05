@@ -1,7 +1,18 @@
-Reference	 Value	 Footprint	 Datasheet
-U1	LTC4359		
-C1	2u	Resistors_SMD:R_0805_HandSoldering	
-R1	1k	Resistors_SMD:R_0805_HandSoldering	
-Q1	BSC028N06NS		
-D1	SMAT70A	Diodes_SMD:SMA_Handsoldering	
-D2	SMAJ24A	Diodes_SMD:SMA_Handsoldering	
+Reference	Description	 Value	 Footprint	 Datasheet
+U1	LTC4359 Ideal Diode Controller MSOP-8	LTC4359	Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm	
+C1	2u2 100V 1206 MLCC Capacitor	2u2	Capacitors_SMD:C_1206	
+R1	1k 0.5W 1206 SMD Resistor	1k	Resistors_SMD:R_1206	
+Q1	BSC028N06NS 50V 100A nFET TDSON-8	BSC028N06NS	_kb_footprint:TDSON-8-1	
+D1	SMAJ60A 60V Zener Diode SMA	SMAJ60A	Diodes_SMD:SMA_Standard	
+D2	SMAJ24A 24V Zener Diode SMA	SMAJ24A	Diodes_SMD:SMA_Standard	
+Q2	BSC028N06NS 50V 100A nFET TDSON-8	BSC028N06NS	_kb_footprint:TDSON-8-1	
+D3	MM3Z16VT1 200mW 16V Zener Diode SOD-323	MM3Z16VT1	Diodes_SMD:SOD-323	
+R3	10R 0603 SMD Resistor	10R	Resistors_SMD:R_0603	
+R2	10k 0603 SMD Resistor	10k	Resistors_SMD:R_0603	
+C2	10n 0603 X5R 100V MLCC Capacitor	10n	Capacitors_SMD:C_0603	
+R4	1M 0603 SMD Resistor	1M	Resistors_SMD:R_0603	
+OUT1	Hole for +V connection on the OUT side (cathode).	DNF	Wire_Pads:SolderWirePad_single_2-5mmDrill	
+GND2	Hole for Ground connection on the OUT side.	DNF	Wire_Pads:SolderWirePad_single_2-5mmDrill	
+IN1	Hole for +V connection on the IN side (anode).	DNF	Wire_Pads:SolderWirePad_single_2-5mmDrill	
+GND1	Hole for Ground connection on the IN side.	DNF	Wire_Pads:SolderWirePad_single_2-5mmDrill	
+P1	3way 2.54mm header	DNF	Pin_Headers:Pin_Header_Straight_1x03	

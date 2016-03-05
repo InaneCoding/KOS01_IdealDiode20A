@@ -1,0 +1,24 @@
+Drill report for C:\freelance\Ideal_diode_controller\pcb\ideal_diode.kicad_pcb
+Created on 2016/01/22 21:59:08
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'C:ideal_diode.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.50mm  0.020"  (63 holes)
+    T2  1.02mm  0.040"  (3 holes)
+    T3  3.30mm  0.130"  (4 holes)
+
+    Total plated holes count 70
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
