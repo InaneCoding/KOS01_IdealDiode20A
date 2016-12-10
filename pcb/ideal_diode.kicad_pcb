@@ -16,7 +16,7 @@
   (title_block
     (title "20A Ideal Diode LTC4359 4V-70V")
     (date 2016-01-22)
-    (rev 1.0)
+    (rev 0.9)
   )
 
   (layers

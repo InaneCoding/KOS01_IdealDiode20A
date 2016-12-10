@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 1
 Title "20A Ideal Diode LTC4359 4V-70V"
 Date "2016-01-22"
-Rev "1.0"
+Rev "0.9"
 Comp ""
 Comment1 ""
 Comment2 ""
