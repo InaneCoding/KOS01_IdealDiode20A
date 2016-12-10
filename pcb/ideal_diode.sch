@@ -35,9 +35,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "20A Ideal Diode LTC4359 4V-70V"
-Date "2016-01-22"
-Rev "0.9"
+Title "20A Ideal Diode LTC4359 5V-60V"
+Date "2016-12-10"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -52,6 +52,11 @@ F 0 "U1" H 5350 3150 60  0000 C CNN
 F 1 "LTC4359" H 6500 3150 60  0000 C CNN
 F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 6000 3550 60  0001 C CNN
 F 3 "" H 6000 3550 60  0000 C CNN
+F 4 "Linear Tech" H 6000 3550 60  0001 C CNN "ManufacturerName"
+F 5 "LTC4359IMS8" H 6000 3550 60  0001 C CNN "ManufacturerPart"
+F 6 "Ideal Diode Controller MSOP-8" H 6000 3550 60  0001 C CNN "Description"
+F 7 "True" H 6000 3550 60  0001 C CNN "Fit"
+F 8 "8516843" H 6000 3550 60  0001 C CNN "rs"
 	1    6000 3550
 	1    0    0    -1  
 $EndComp
@@ -63,6 +68,11 @@ F 0 "C1" H 7525 3650 50  0000 L CNN
 F 1 "2u2" H 7525 3450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 7538 3400 30  0000 C CNN
 F 3 "" H 7500 3550 60  0000 C CNN
+F 4 "Murata" H 7500 3550 60  0001 C CNN "ManufacturerName"
+F 5 "GRM31CR72A225KA73L" H 7500 3550 60  0001 C CNN "ManufacturerPart"
+F 6 "1206 100V X7R 10% Capacitor" H 7500 3550 60  0001 C CNN "Description"
+F 7 "True" H 7500 3550 60  0001 C CNN "Fit"
+F 8 "8202863" H 7500 3550 60  0001 C CNN "rs"
 	1    7500 3550
 	1    0    0    -1  
 $EndComp
@@ -82,9 +92,14 @@ L R R1
 U 1 1 569A6E88
 P 6000 4400
 F 0 "R1" V 6080 4400 50  0000 C CNN
-F 1 "1k" V 6000 4400 50  0000 C CNN
+F 1 "3k6" V 6000 4400 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 5930 4400 30  0000 C CNN
 F 3 "" H 6000 4400 30  0000 C CNN
+F 4 "Panasonic" H 6000 4400 60  0001 C CNN "ManufacturerName"
+F 5 "ERJP08F3601V" H 6000 4400 60  0001 C CNN "ManufacturerPart"
+F 6 "0.5W 1206 Resistor" H 6000 4400 60  0001 C CNN "Description"
+F 7 "True" H 6000 4400 60  0001 C CNN "Fit"
+F 8 "7219866" H 6000 4400 60  0001 C CNN "rs"
 	1    6000 4400
 	1    0    0    -1  
 $EndComp
@@ -96,6 +111,11 @@ F 0 "Q1" H 5900 1550 50  0000 L CNN
 F 1 "BSC028N06NS" H 5850 2100 50  0000 L CNN
 F 2 "_kb_footprint:TDSON-8-1" H 6100 2000 50  0000 C CIN
 F 3 "" V 6100 1800 50  0000 L CNN
+F 4 "Infineon" H 6100 1800 60  0001 C CNN "ManufacturerName"
+F 5 "BSC028N06NS" H 6100 1800 60  0001 C CNN "ManufacturerPart"
+F 6 "N-Channel 60V 100A TDSON8" H 6100 1800 60  0001 C CNN "Description"
+F 7 "True" H 6100 1800 60  0001 C CNN "Fit"
+F 8 "9064296" H 6100 1800 60  0001 C CNN "rs"
 	1    6100 1800
 	1    0    0    -1  
 $EndComp
@@ -147,6 +167,11 @@ F 0 "D1" H 4150 3400 50  0000 C CNN
 F 1 "SMAJ60A" H 4150 3200 50  0000 C CNN
 F 2 "Diodes_SMD:SMA_Standard" H 4000 3050 60  0000 C CNN
 F 3 "" H 4150 3300 60  0000 C CNN
+F 4 "Taiwan Semi" H 4150 3300 60  0001 C CNN "ManufacturerName"
+F 5 "SMAJ60A" H 4150 3300 60  0001 C CNN "ManufacturerPart"
+F 6 "60V TVS 400W SMA" H 4150 3300 60  0001 C CNN "Description"
+F 7 "True" H 4150 3300 60  0001 C CNN "Fit"
+F 8 "6873368" H 4150 3300 60  0001 C CNN "rs"
 	1    4150 3300
 	0    1    1    0   
 $EndComp
@@ -158,6 +183,11 @@ F 0 "D2" H 4150 3900 50  0000 C CNN
 F 1 "SMAJ24A" H 4150 3700 50  0000 C CNN
 F 2 "Diodes_SMD:SMA_Standard" H 4050 3400 60  0000 C CNN
 F 3 "" H 4150 3800 60  0000 C CNN
+F 4 "Taiwan Semi" H 4150 3800 60  0001 C CNN "ManufacturerName"
+F 5 "SMAJ24A" H 4150 3800 60  0001 C CNN "ManufacturerPart"
+F 6 "24V TVS 400W SMA" H 4150 3800 60  0001 C CNN "Description"
+F 7 "True" H 4150 3800 60  0001 C CNN "Fit"
+F 8 "7485161" H 4150 3800 60  0001 C CNN "rs"
 	1    4150 3800
 	0    1    -1   0   
 $EndComp
@@ -185,6 +215,11 @@ F 0 "Q2" H 5100 1550 50  0000 L CNN
 F 1 "BSC028N06NS" H 5050 2100 50  0000 L CNN
 F 2 "_kb_footprint:TDSON-8-1" H 5300 2000 50  0000 C CIN
 F 3 "" V 5300 1800 50  0000 L CNN
+F 4 "Infineon" H 5300 1800 60  0001 C CNN "ManufacturerName"
+F 5 "BSC028N06NS" H 5300 1800 60  0001 C CNN "ManufacturerPart"
+F 6 "N-Channel 60V 100A TDSON8" H 5300 1800 60  0001 C CNN "Description"
+F 7 "True" H 5300 1800 60  0001 C CNN "Fit"
+F 8 "9064296" H 5300 1800 60  0001 C CNN "rs"
 	1    5300 1800
 	-1   0    0    -1  
 $EndComp
@@ -215,6 +250,11 @@ F 0 "D3" H 5900 2400 50  0000 C CNN
 F 1 "MM3Z16VT1" H 5900 2200 50  0000 C CNN
 F 2 "Diodes_SMD:SOD-323" H 5900 2300 50  0000 C CNN
 F 3 "" H 5900 2300 50  0000 C CNN
+F 4 "ON Semi" H 5900 2300 60  0001 C CNN "ManufacturerName"
+F 5 "MM3Z16VT1G" H 5900 2300 60  0001 C CNN "ManufacturerPart"
+F 6 "16V 6% 0.2W Zener Diode SOD-323" H 5900 2300 60  0001 C CNN "Description"
+F 7 "True" H 5900 2300 60  0001 C CNN "Fit"
+F 8 "6878212" H 5900 2300 60  0001 C CNN "rs"
 	1    5900 2300
 	-1   0    0    -1  
 $EndComp
@@ -231,6 +271,11 @@ F 0 "R3" V 5380 2300 50  0000 C CNN
 F 1 "10R" V 5300 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5230 2300 30  0000 C CNN
 F 3 "" H 5300 2300 30  0000 C CNN
+F 4 "_" H 5300 2300 60  0001 C CNN "ManufacturerName"
+F 5 "_" H 5300 2300 60  0001 C CNN "ManufacturerPart"
+F 6 "0603 Resistor" H 5300 2300 60  0001 C CNN "Description"
+F 7 "True" H 5300 2300 60  0001 C CNN "Fit"
+F 8 "_" H 5300 2300 60  0001 C CNN "rs"
 	1    5300 2300
 	1    0    0    -1  
 $EndComp
@@ -242,6 +287,11 @@ F 0 "R2" V 5180 2550 50  0000 C CNN
 F 1 "10k" V 5100 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5030 2550 30  0000 C CNN
 F 3 "" H 5100 2550 30  0000 C CNN
+F 4 "_" H 5100 2550 60  0001 C CNN "ManufacturerName"
+F 5 "_" H 5100 2550 60  0001 C CNN "ManufacturerPart"
+F 6 "0603 Resistor" H 5100 2550 60  0001 C CNN "Description"
+F 7 "True" H 5100 2550 60  0001 C CNN "Fit"
+F 8 "_" H 5100 2550 60  0001 C CNN "rs"
 	1    5100 2550
 	0    1    1    0   
 $EndComp
@@ -253,6 +303,11 @@ F 0 "C2" H 4775 2650 50  0000 L CNN
 F 1 "10n" H 4775 2450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4788 2400 30  0000 C CNN
 F 3 "" H 4750 2550 60  0000 C CNN
+F 4 "AVX" H 4750 2550 60  0001 C CNN "ManufacturerName"
+F 5 "06031C103K4Z2A" H 4750 2550 60  0001 C CNN "ManufacturerPart"
+F 6 "0603 100V X7R 10% Capacitor" H 4750 2550 60  0001 C CNN "Description"
+F 7 "True" H 4750 2550 60  0001 C CNN "Fit"
+F 8 "6983210" H 4750 2550 60  0001 C CNN "rs"
 	1    4750 2550
 	0    1    1    0   
 $EndComp
@@ -295,6 +350,11 @@ F 0 "R4" V 2880 3350 50  0000 C CNN
 F 1 "1M" V 2800 3350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2730 3350 30  0000 C CNN
 F 3 "" H 2800 3350 30  0000 C CNN
+F 4 "_" H 2800 3350 60  0001 C CNN "ManufacturerName"
+F 5 "_" H 2800 3350 60  0001 C CNN "ManufacturerPart"
+F 6 "0603 Resistor" H 2800 3350 60  0001 C CNN "Description"
+F 7 "True" H 2800 3350 60  0001 C CNN "Fit"
+F 8 "_" H 2800 3350 60  0001 C CNN "rs"
 	1    2800 3350
 	1    0    0    -1  
 $EndComp
@@ -319,6 +379,11 @@ F 0 "OUT1" H 8100 1700 50  0000 C CNN
 F 1 "CONN_01X01" V 8300 1500 50  0000 C CNN
 F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 8100 1600 50  0000 C CNN
 F 3 "" H 8100 1600 50  0000 C CNN
+F 4 "_" H 8100 1600 60  0001 C CNN "ManufacturerName"
+F 5 "_" H 8100 1600 60  0001 C CNN "ManufacturerPart"
+F 6 "_" H 8100 1600 60  0001 C CNN "Description"
+F 7 "False" H 8100 1600 60  0001 C CNN "Fit"
+F 8 "_" H 8100 1600 60  0001 C CNN "rs"
 	1    8100 1600
 	1    0    0    -1  
 $EndComp
@@ -330,6 +395,11 @@ F 0 "GND2" H 8000 5500 50  0000 C CNN
 F 1 "CONN_01X01" V 8200 5400 50  0000 C CNN
 F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 8000 5400 50  0000 C CNN
 F 3 "" H 8000 5400 50  0000 C CNN
+F 4 "_" H 8000 5400 60  0001 C CNN "ManufacturerName"
+F 5 "_" H 8000 5400 60  0001 C CNN "ManufacturerPart"
+F 6 "_" H 8000 5400 60  0001 C CNN "Description"
+F 7 "False" H 8000 5400 60  0001 C CNN "Fit"
+F 8 "_" H 8000 5400 60  0001 C CNN "rs"
 	1    8000 5400
 	1    0    0    -1  
 $EndComp
@@ -341,6 +411,11 @@ F 0 "IN1" H 1950 1700 50  0000 C CNN
 F 1 "CONN_01X01" V 2050 1600 50  0000 C CNN
 F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 1950 1600 50  0000 C CNN
 F 3 "" H 1950 1600 50  0000 C CNN
+F 4 "_" H 1950 1600 60  0001 C CNN "ManufacturerName"
+F 5 "_" H 1950 1600 60  0001 C CNN "ManufacturerPart"
+F 6 "_" H 1950 1600 60  0001 C CNN "Description"
+F 7 "False" H 1950 1600 60  0001 C CNN "Fit"
+F 8 "_" H 1950 1600 60  0001 C CNN "rs"
 	1    1950 1600
 	-1   0    0    -1  
 $EndComp
@@ -353,6 +428,11 @@ F 0 "GND1" H 1900 5500 50  0000 C CNN
 F 1 "CONN_01X01" V 2050 5400 50  0000 C CNN
 F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 1900 5400 50  0000 C CNN
 F 3 "" H 1900 5400 50  0000 C CNN
+F 4 "_" H 1900 5400 60  0001 C CNN "ManufacturerName"
+F 5 "_" H 1900 5400 60  0001 C CNN "ManufacturerPart"
+F 6 "_" H 1900 5400 60  0001 C CNN "Description"
+F 7 "False" H 1900 5400 60  0001 C CNN "Fit"
+F 8 "_" H 1900 5400 60  0001 C CNN "rs"
 	1    1900 5400
 	-1   0    0    -1  
 $EndComp
@@ -367,6 +447,11 @@ F 0 "P1" H 1900 4850 50  0000 C CNN
 F 1 "CONN_01X03" V 2000 4650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1900 4650 50  0000 C CNN
 F 3 "" H 1900 4650 50  0000 C CNN
+F 4 "_" H 1900 4650 60  0001 C CNN "ManufacturerName"
+F 5 "_" H 1900 4650 60  0001 C CNN "ManufacturerPart"
+F 6 "1x3way 2.54mm Header" H 1900 4650 60  0001 C CNN "Description"
+F 7 "True" H 1900 4650 60  0001 C CNN "Fit"
+F 8 "_" H 1900 4650 60  0001 C CNN "rs"
 	1    1900 4650
 	-1   0    0    -1  
 $EndComp
@@ -379,12 +464,4 @@ Wire Wire Line
 	2250 4650 2250 5400
 Text Notes 1550 2750 0    60   ~ 0
 D1 could be SMAT70A for higher breakdown\n(and still clamp <100V), if higher IN needed.
-Text Notes 6100 4950 0    60   ~ 0
-possible R1 3k3+ to allow reverse protection with\n65V input and not exceeed 0.5W rating?\nTest with both 1k & 3k6
-Text Notes 6200 4450 0    60   ~ 12
-0.5W
-Text Notes 4700 2400 0    60   ~ 12
-100V
-Text Notes 7700 3600 0    60   ~ 12
-100V
 $EndSCHEMATC

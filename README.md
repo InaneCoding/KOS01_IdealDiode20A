@@ -1,1 +1,1 @@
-20A 4V-80V Ideal Diode
+20A 5V-60V Ideal Diode

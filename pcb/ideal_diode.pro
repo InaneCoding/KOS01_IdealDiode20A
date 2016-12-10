@@ -1,4 +1,4 @@
-update=2016/01/16 16:01:03
+update=10/12/2016 15:20:53
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=C:/freelance/kicad_library/schematic
+LibDir=D:/freelance/kicad_library/schematic
 [eeschema/libraries]
 LibName1=_kb
 LibName2=power

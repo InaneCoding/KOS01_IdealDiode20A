@@ -1,0 +1,27 @@
+FOR V1.0
+still need to add part info for commodity R's and header P1
+need to sort out BOM export plugin & target format
+find out why silkscreen refdes dont look visible
+complete readme
+
+
+FOR V2.0
+Test! (20A continuous, step response, reverse & overvoltage protection, input/output shorts)
+move P1 away from GND1 hole
+add thermal relief on C1, C2, R1, R4 etc
+silkscreen on /SHDN header P1 describing
+move FETs upwards & centre IN/OUT holes to FETs
+make for M4 bolts (incl bigger pads), leave enough clearance for ring crimp terminals
+move bottom half compoents slightly to left to give even space
+make whole PCB taller - square? to give better thermal, lower resistance etc
+dont need 1M pullup resistor!
+be very careful when soldering, must have damaged LTC4359 before! Solder Q1 Q2 first.
+LTC4359I only 85C (125C for H version), cut plane back slightly & move FETS upwards to stop heating up? Consider H version.
+silkscreen to show big diode for main function - bottom? also for big +ve and -ve signs
+possibly use larger R1 value, but smaller case size. Sacrifices some of the minimum voltage to reduce power in component during reverse protection fault
+option to BOM fit change to BSC016N06NSATMA1 fets for 1.5mohm instead of 2.5mohm Rdson
+Change from 60V protection to 70V to allow higher input voltage?
+remove second ground hole and just have single? removes dissipation in  GND tracks & two ring terminals could be attached on one hole
+
+put on kitnic, get 10off(?) PCBs & advertise
+advertise e.g. motorhome group on facebook

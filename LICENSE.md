@@ -1,3 +1,2 @@
-TBD - possibly CERN OSHW license?
+CERN Open Hardware License Version 1.2, or later.
 http://www.ohwr.org/licenses/cern-ohl/v1.2
-Undecided; private copyrighted work until updated.

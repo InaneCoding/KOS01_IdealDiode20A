@@ -1,4 +1,4 @@
-description: 20A 4V-80V Ideal Diode circuit based on the Linear Tech LT4359
+description: 20A 5V-60V Ideal Diode circuit based on the Linear Tech LT4359
 site: http://www.inanecoding.co.uk
 color: green
 bom: pcb/1-click-BOM.tsv
