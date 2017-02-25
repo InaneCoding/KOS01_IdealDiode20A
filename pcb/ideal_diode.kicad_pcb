@@ -3,7 +3,7 @@
   (general
     (links 100)
     (no_connects 0)
-    (area 114.166667 85.547619 182.383334 122.875)
+    (area 129.224999 88.724999 163.375001 113.875001)
     (thickness 1.6)
     (drawings 9)
     (tracks 64)
@@ -15,13 +15,13 @@
   (page A4)
   (title_block
     (title "20A Ideal Diode LTC4359 5V-60V")
-    (date 2016-12-10)
+    (date 2017-02-25)
     (rev 1.0)
   )
 
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (33 F.Adhes user)
     (35 F.Paste user)
     (37 F.SilkS user)
@@ -791,7 +791,7 @@
   )
 
   (module _kb_footprint:via_0-9_0-5mm (layer F.Cu) (tedit 56A2A1A0) (tstamp 56A29DEF)
-    (at 131.2 101.3)
+    (at 131.2 100.33)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1080,7 +1080,7 @@
     (fp_text reference R1 (at 2.85 0.3 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 0.9 -14.55 270) (layer F.Fab)
+    (fp_text value 3k6 (at 0.9 -14.55 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 -1.2) (end 2.2 -1.2) (layer F.CrtYd) (width 0.05))
@@ -1357,12 +1357,12 @@
       (net 2 /OUT))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 56A29822) (tstamp 56A15433)
+  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 58B1AC37) (tstamp 56A15433)
     (at 132.25 103.85 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /56A1AF3D)
-    (fp_text reference P1 (at 2.65 0.35 180) (layer F.SilkS)
+    (fp_text reference P1 (at 2.4 -0.9 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X03 (at -2.3 -12.15 90) (layer F.Fab)

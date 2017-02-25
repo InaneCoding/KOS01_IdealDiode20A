@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "20A Ideal Diode LTC4359 5V-60V"
-Date "2016-12-10"
+Date "2017-02-25"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -271,11 +271,11 @@ F 0 "R3" V 5380 2300 50  0000 C CNN
 F 1 "10R" V 5300 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5230 2300 30  0000 C CNN
 F 3 "" H 5300 2300 30  0000 C CNN
-F 4 "_" H 5300 2300 60  0001 C CNN "ManufacturerName"
-F 5 "_" H 5300 2300 60  0001 C CNN "ManufacturerPart"
+F 4 "TE" H 5300 2300 60  0001 C CNN "ManufacturerName"
+F 5 "CRG0603F10R" H 5300 2300 60  0001 C CNN "ManufacturerPart"
 F 6 "0603 Resistor" H 5300 2300 60  0001 C CNN "Description"
 F 7 "True" H 5300 2300 60  0001 C CNN "Fit"
-F 8 "_" H 5300 2300 60  0001 C CNN "rs"
+F 8 "2132008" H 5300 2300 60  0001 C CNN "rs"
 	1    5300 2300
 	1    0    0    -1  
 $EndComp
@@ -287,11 +287,11 @@ F 0 "R2" V 5180 2550 50  0000 C CNN
 F 1 "10k" V 5100 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5030 2550 30  0000 C CNN
 F 3 "" H 5100 2550 30  0000 C CNN
-F 4 "_" H 5100 2550 60  0001 C CNN "ManufacturerName"
-F 5 "_" H 5100 2550 60  0001 C CNN "ManufacturerPart"
+F 4 "TE" H 5100 2550 60  0001 C CNN "ManufacturerName"
+F 5 "CRG0603F10K" H 5100 2550 60  0001 C CNN "ManufacturerPart"
 F 6 "0603 Resistor" H 5100 2550 60  0001 C CNN "Description"
 F 7 "True" H 5100 2550 60  0001 C CNN "Fit"
-F 8 "_" H 5100 2550 60  0001 C CNN "rs"
+F 8 "2132418" H 5100 2550 60  0001 C CNN "rs"
 	1    5100 2550
 	0    1    1    0   
 $EndComp
@@ -350,11 +350,11 @@ F 0 "R4" V 2880 3350 50  0000 C CNN
 F 1 "1M" V 2800 3350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2730 3350 30  0000 C CNN
 F 3 "" H 2800 3350 30  0000 C CNN
-F 4 "_" H 2800 3350 60  0001 C CNN "ManufacturerName"
-F 5 "_" H 2800 3350 60  0001 C CNN "ManufacturerPart"
+F 4 "TE" H 2800 3350 60  0001 C CNN "ManufacturerName"
+F 5 "CRG0603F1M0" H 2800 3350 60  0001 C CNN "ManufacturerPart"
 F 6 "0603 Resistor" H 2800 3350 60  0001 C CNN "Description"
 F 7 "True" H 2800 3350 60  0001 C CNN "Fit"
-F 8 "_" H 2800 3350 60  0001 C CNN "rs"
+F 8 "2132676" H 2800 3350 60  0001 C CNN "rs"
 	1    2800 3350
 	1    0    0    -1  
 $EndComp
@@ -381,7 +381,7 @@ F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 8100 1600 50  0000 C CNN
 F 3 "" H 8100 1600 50  0000 C CNN
 F 4 "_" H 8100 1600 60  0001 C CNN "ManufacturerName"
 F 5 "_" H 8100 1600 60  0001 C CNN "ManufacturerPart"
-F 6 "_" H 8100 1600 60  0001 C CNN "Description"
+F 6 "Hole for solder / screw" H 8100 1600 60  0001 C CNN "Description"
 F 7 "False" H 8100 1600 60  0001 C CNN "Fit"
 F 8 "_" H 8100 1600 60  0001 C CNN "rs"
 	1    8100 1600
@@ -397,7 +397,7 @@ F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 8000 5400 50  0000 C CNN
 F 3 "" H 8000 5400 50  0000 C CNN
 F 4 "_" H 8000 5400 60  0001 C CNN "ManufacturerName"
 F 5 "_" H 8000 5400 60  0001 C CNN "ManufacturerPart"
-F 6 "_" H 8000 5400 60  0001 C CNN "Description"
+F 6 "Hole for solder / screw" H 8000 5400 60  0001 C CNN "Description"
 F 7 "False" H 8000 5400 60  0001 C CNN "Fit"
 F 8 "_" H 8000 5400 60  0001 C CNN "rs"
 	1    8000 5400
@@ -413,7 +413,7 @@ F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 1950 1600 50  0000 C CNN
 F 3 "" H 1950 1600 50  0000 C CNN
 F 4 "_" H 1950 1600 60  0001 C CNN "ManufacturerName"
 F 5 "_" H 1950 1600 60  0001 C CNN "ManufacturerPart"
-F 6 "_" H 1950 1600 60  0001 C CNN "Description"
+F 6 "Hole for solder / screw" H 1950 1600 60  0001 C CNN "Description"
 F 7 "False" H 1950 1600 60  0001 C CNN "Fit"
 F 8 "_" H 1950 1600 60  0001 C CNN "rs"
 	1    1950 1600
@@ -430,7 +430,7 @@ F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 1900 5400 50  0000 C CNN
 F 3 "" H 1900 5400 50  0000 C CNN
 F 4 "_" H 1900 5400 60  0001 C CNN "ManufacturerName"
 F 5 "_" H 1900 5400 60  0001 C CNN "ManufacturerPart"
-F 6 "_" H 1900 5400 60  0001 C CNN "Description"
+F 6 "Hole for solder / screw" H 1900 5400 60  0001 C CNN "Description"
 F 7 "False" H 1900 5400 60  0001 C CNN "Fit"
 F 8 "_" H 1900 5400 60  0001 C CNN "rs"
 	1    1900 5400
@@ -447,11 +447,11 @@ F 0 "P1" H 1900 4850 50  0000 C CNN
 F 1 "CONN_01X03" V 2000 4650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1900 4650 50  0000 C CNN
 F 3 "" H 1900 4650 50  0000 C CNN
-F 4 "_" H 1900 4650 60  0001 C CNN "ManufacturerName"
-F 5 "_" H 1900 4650 60  0001 C CNN "ManufacturerPart"
+F 4 "Harwin" H 1900 4650 60  0001 C CNN "ManufacturerName"
+F 5 "M20-9990345" H 1900 4650 60  0001 C CNN "ManufacturerPart"
 F 6 "1x3way 2.54mm Header" H 1900 4650 60  0001 C CNN "Description"
 F 7 "True" H 1900 4650 60  0001 C CNN "Fit"
-F 8 "_" H 1900 4650 60  0001 C CNN "rs"
+F 8 "6812975" H 1900 4650 60  0001 C CNN "rs"
 	1    1900 4650
 	-1   0    0    -1  
 $EndComp

@@ -1,10 +1,3 @@
-FOR V1.0
-still need to add part info for commodity R's and header P1
-need to sort out BOM export plugin & target format
-find out why silkscreen refdes dont look visible
-complete readme
-
-
 FOR V2.0
 Test! (20A continuous, step response, reverse & overvoltage protection, input/output shorts)
 move P1 away from GND1 hole
@@ -22,6 +15,6 @@ possibly use larger R1 value, but smaller case size. Sacrifices some of the mini
 option to BOM fit change to BSC016N06NSATMA1 fets for 1.5mohm instead of 2.5mohm Rdson
 Change from 60V protection to 70V to allow higher input voltage?
 remove second ground hole and just have single? removes dissipation in  GND tracks & two ring terminals could be attached on one hole
-
-put on kitnic, get 10off(?) PCBs & advertise
-advertise e.g. motorhome group on facebook
+Fix Q1 Q2 D3 missing 3D models
+Find another way of doing thermal vias instead of current bodge that results in annoying text all over pcb view
+find out why silkscreen refdes dont look visible in Kicad (appear OK in gerbers)

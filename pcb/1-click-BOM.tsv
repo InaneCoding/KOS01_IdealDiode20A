@@ -1,18 +1,14 @@
-Reference	Description	 Value	 Footprint	 Datasheet
-U1	LTC4359 Ideal Diode Controller MSOP-8	LTC4359	Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm	
-C1	2u2 100V 1206 MLCC Capacitor	2u2	Capacitors_SMD:C_1206	
-R1	1k 0.5W 1206 SMD Resistor	1k	Resistors_SMD:R_1206	
-Q1	BSC028N06NS 50V 100A nFET TDSON-8	BSC028N06NS	_kb_footprint:TDSON-8-1	
-D1	SMAJ60A 60V Zener Diode SMA	SMAJ60A	Diodes_SMD:SMA_Standard	
-D2	SMAJ24A 24V Zener Diode SMA	SMAJ24A	Diodes_SMD:SMA_Standard	
-Q2	BSC028N06NS 50V 100A nFET TDSON-8	BSC028N06NS	_kb_footprint:TDSON-8-1	
-D3	MM3Z16VT1 200mW 16V Zener Diode SOD-323	MM3Z16VT1	Diodes_SMD:SOD-323	
-R3	10R 0603 SMD Resistor	10R	Resistors_SMD:R_0603	
-R2	10k 0603 SMD Resistor	10k	Resistors_SMD:R_0603	
-C2	10n 0603 X5R 100V MLCC Capacitor	10n	Capacitors_SMD:C_0603	
-R4	1M 0603 SMD Resistor	1M	Resistors_SMD:R_0603	
-OUT1	Hole for +V connection on the OUT side (cathode).	DNF	Wire_Pads:SolderWirePad_single_2-5mmDrill	
-GND2	Hole for Ground connection on the OUT side.	DNF	Wire_Pads:SolderWirePad_single_2-5mmDrill	
-IN1	Hole for +V connection on the IN side (anode).	DNF	Wire_Pads:SolderWirePad_single_2-5mmDrill	
-GND1	Hole for Ground connection on the IN side.	DNF	Wire_Pads:SolderWirePad_single_2-5mmDrill	
-P1	3way 2.54mm header	DNF	Pin_Headers:Pin_Header_Straight_1x03	
+Reference	Description	Manufacturer	MPN	RS	Value
+U1	Ideal Diode Controller MSOP-8	Linear Tech	LTC4359IMS8	8516843	LTC4359
+C1	1206 100V X7R 10% Capacitor	Murata	GRM31CR72A225KA73L	8202863	2u2
+R1	0.5W 1206 Resistor	Panasonic	ERJP08F3601V	7219866	3k6
+Q1	N-Channel 60V 100A TDSON8	Infineon	BSC028N06NS	9064296	BSC028N06NS
+D1	60V TVS 400W SMA	Taiwan Semi	SMAJ60A	6873368	SMAJ60A
+D2	24V TVS 400W SMA	Taiwan Semi	SMAJ24A	7485161	SMAJ24A
+Q2	N-Channel 60V 100A TDSON8	Infineon	BSC028N06NS	9064296	BSC028N06NS
+D3	16V 6% 0.2W Zener Diode SOD-323	ON Semi	MM3Z16VT1G	6878212	MM3Z16VT1
+R3	0603 Resistor	TE	CRG0603F10R	2132008	10R
+R2	0603 Resistor	TE	CRG0603F10K	2132418	10k
+C2	0603 100V X7R 10% Capacitor	AVX	06031C103K4Z2A	6983210	10n
+R4	0603 Resistor	TE	CRG0603F1M0	2132676	1M
+P1	1x3way 2.54mm Header	Harwin	M20-9990345	6812975	CONN_01X03

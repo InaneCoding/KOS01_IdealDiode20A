@@ -1,18 +1,18 @@
-Reference, Value, Footprint, Datasheet
-U1,LTC4359,Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm,
-C1,2u2,Capacitors_SMD:C_1206,
-R1,1k,Resistors_SMD:R_1206,
-Q1,BSC028N06NS,_kb_footprint:TDSON-8-1,
-D1,SMAJ60A,Diodes_SMD:SMA_Standard,
-D2,SMAJ24A,Diodes_SMD:SMA_Standard,
-Q2,BSC028N06NS,_kb_footprint:TDSON-8-1,
-D3,MM3Z16VT1,Diodes_SMD:SOD-323,
-R3,10R,Resistors_SMD:R_0603,
-R2,10k,Resistors_SMD:R_0603,
-C2,10n,Capacitors_SMD:C_0603,
-R4,1M,Resistors_SMD:R_0603,
-OUT1,CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,
-GND2,CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,
-IN1,CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,
-GND1,CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,
-P1,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,
+Reference, Value, Footprint, Datasheet, ManufacturerName, ManufacturerPart, Description, Fit, rs
+U1,LTC4359,Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm,,Linear Tech,LTC4359IMS8,Ideal Diode Controller MSOP-8,True,8516843
+C1,2u2,Capacitors_SMD:C_1206,,Murata,GRM31CR72A225KA73L,1206 100V X7R 10% Capacitor,True,8202863
+R1,3k6,Resistors_SMD:R_1206,,Panasonic,ERJP08F3601V,0.5W 1206 Resistor,True,7219866
+Q1,BSC028N06NS,_kb_footprint:TDSON-8-1,,Infineon,BSC028N06NS,N-Channel 60V 100A TDSON8,True,9064296
+D1,SMAJ60A,Diodes_SMD:SMA_Standard,,Taiwan Semi,SMAJ60A,60V TVS 400W SMA,True,6873368
+D2,SMAJ24A,Diodes_SMD:SMA_Standard,,Taiwan Semi,SMAJ24A,24V TVS 400W SMA,True,7485161
+Q2,BSC028N06NS,_kb_footprint:TDSON-8-1,,Infineon,BSC028N06NS,N-Channel 60V 100A TDSON8,True,9064296
+D3,MM3Z16VT1,Diodes_SMD:SOD-323,,ON Semi,MM3Z16VT1G,16V 6% 0.2W Zener Diode SOD-323,True,6878212
+R3,10R,Resistors_SMD:R_0603,,TE,CRG0603F10R,0603 Resistor,True,2132008
+R2,10k,Resistors_SMD:R_0603,,TE,CRG0603F10K,0603 Resistor,True,2132418
+C2,10n,Capacitors_SMD:C_0603,,AVX,06031C103K4Z2A,0603 100V X7R 10% Capacitor,True,6983210
+R4,1M,Resistors_SMD:R_0603,,TE,CRG0603F1M0,0603 Resistor,True,2132676
+OUT1,CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,,_,_,Hole for solder / screw,False,_
+GND2,CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,,_,_,Hole for solder / screw,False,_
+IN1,CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,,_,_,Hole for solder / screw,False,_
+GND1,CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,,_,_,Hole for solder / screw,False,_
+P1,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,Harwin,M20-9990345,1x3way 2.54mm Header,True,6812975

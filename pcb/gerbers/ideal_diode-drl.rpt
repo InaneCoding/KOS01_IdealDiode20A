@@ -1,5 +1,5 @@
-Drill report for C:\freelance\Ideal_diode_controller\pcb\ideal_diode.kicad_pcb
-Created on 2016/01/22 21:59:08
+Drill report for D:\freelance\KOS01_IdealDiode20A.git\pcb\ideal_diode.kicad_pcb
+Created on 25/02/2017 16:14:28
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'C:ideal_diode.drl' contains
+Drill file 'D:ideal_diode.drl' contains
     plated through holes:
     =============================================================
     T1  0.50mm  0.020"  (63 holes)
